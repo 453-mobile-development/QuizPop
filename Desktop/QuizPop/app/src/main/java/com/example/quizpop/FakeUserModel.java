@@ -5,6 +5,7 @@ public class FakeUserModel {
     String Username;
     int QuestionsCorrect;
     int QuestionsAttmepted;
+    int practice;
 
     FakeUserModel(String uName, int questionsCorrect, int questionsAttmepted)
     {
