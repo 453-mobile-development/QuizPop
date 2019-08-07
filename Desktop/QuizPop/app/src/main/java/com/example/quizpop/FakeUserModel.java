@@ -2,26 +2,27 @@ package com.example.quizpop;
 
 public class FakeUserModel {
 
-    String Username;
-    int QuestionsCorrect;
-    int QuestionsAttmepted;
+    String username;
+    int questionsCorrect;
+    int questionsAttmepted;
 
     FakeUserModel(String uName, int questionsCorrect, int questionsAttmepted)
     {
-        Username=uName;
-        QuestionsCorrect = questionsCorrect;
-        QuestionsAttmepted=questionsAttmepted;
+        username=uName;
+        this.questionsCorrect = questionsCorrect;
+        this.questionsAttmepted=questionsAttmepted;
     }
 
+
     public String getUsername() {
-        return Username;
+        return username;
     }
 
     public int getQuestionsCorrect() {
-        return QuestionsCorrect;
+        return questionsCorrect;
     }
 
     public int getQuestionsAttmepted() {
-        return QuestionsAttmepted;
+        return questionsAttmepted;
     }
 }
